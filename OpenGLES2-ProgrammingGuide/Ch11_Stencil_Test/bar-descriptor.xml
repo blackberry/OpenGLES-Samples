@@ -47,7 +47,13 @@
     
     <!--  The category where the application appears. Either core.games or core.media. -->
     <category>core.games</category>
+	
     <asset path="icon.png">icon.png</asset>
+	
+	<!-- BlackBerry NDK 1.0
+	<asset path="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib/libbps.so" type="Qnx/Elf">lib/libbps.so.1</asset>
+    -->
+	
     <configuration id="com.qnx.qcc.configuration.exe.debug.389790275" name="Device-Debug">
        <platformArchitecture>armle-v7</platformArchitecture>
        <asset path="Device-Debug/Ch11_Stencil_Test" entry="true" type="Qnx/Elf">Ch11_Stencil_Test</asset>
