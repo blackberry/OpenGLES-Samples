@@ -15,14 +15,14 @@ https://bdsc.webapps.blackberry.com/native/documentation/getting_started.html
 
 ## Importing the projects into the workspace
 
- - Set the workspace to the base BlackBerry directory.
- - Import the projects into the workspace:
+ * Set the workspace to the base BlackBerry directory.
+ * Import the projects into the workspace:
    * File > Import... > Existing Projects into Workspace
    * Next
    * Browse...
    * Ok (The workspace directory is selected by default)
    * Finish (All projects should be selected by default)
- - Build All
+ * Build All
 
 
 ## Running on the PlayBook
@@ -33,19 +33,19 @@ the instructions up to "Configure your environment for development and deploymen
 https://bdsc.webapps.blackberry.com/native/documentation/getting_started.html
 
 Enable Development Mode on your PlayBook
- - Go to Options by swiping down from the top of the homescreen
- - Security > Development Mode
- - Turn on Development mode
- - Note the Development Address
+ * Go to Options by swiping down from the top of the homescreen
+ * Security > Development Mode
+ * Turn on Development mode
+ * Note the Development Address
 
 In the IDE, Create a BlackBerry Tablet OS Target
- - Connect your PlayBook via USB to your desktop and make sure that development mode is enabled
- - New > Other... > BlackBerry Tablet OS Target > Next
- - Enter your "Development Address" (probably 169.254.0.1)
- - Enter your PlayBook's password
- - Finish
- - A BlackBerry Tablet OS Target will appear under the Project Explorer. The name will be the same as the development address.
+ * Connect your PlayBook via USB to your desktop and make sure that development mode is enabled
+ * New > Other... > BlackBerry Tablet OS Target > Next
+ * Enter your "Development Address" (probably 169.254.0.1)
+ * Enter your PlayBook's password
+ * Finish
+ * A BlackBerry Tablet OS Target will appear under the Project Explorer. The name will be the same as the development address.
 
 Launching an application
- - Create a launch configuration for each sample.
- - https://bdsc.webapps.blackberry.com/native/documentation/com.qnx.doc.native_sdk.quickstart/topic/prepare_launch.html
+ * Create a launch configuration for each sample.
+ * https://bdsc.webapps.blackberry.com/native/documentation/com.qnx.doc.native_sdk.quickstart/topic/prepare_launch.html
