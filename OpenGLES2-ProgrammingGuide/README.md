@@ -2,9 +2,11 @@
 
 If you are using NDK version 1.0, you will need to un-comment out the following in each of the bar-descriptor.xml files.
 
+    <!-- BlackBerry NDK 1.0
     <asset path="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib/libbps.so" type="Qnx/Elf">lib/libbps.so.1</asset>
+    -->
 
-Otherwise you will see the warning.
+Otherwise you will see this warning.
 
     Asset requires dependency "C:\bbndk-1.0\target\target-override\armle-v7\usr\lib\libbps.so.1" to be included in the BAR package.	bar-descriptor.xml
 
@@ -40,12 +42,12 @@ the instructions up to "Configure your environment for development and deploymen
 
 [Getting started with the NDK](https://bdsc.webapps.blackberry.com/native/documentation/getting_started.html)
 
-* Enable Development Mode on your PlayBook
+ * Enable Development Mode on your PlayBook
    * Go to Options by swiping down from the top of the homescreen
    * Security > Development Mode
    * Turn on Development mode
    * Note the Development Address
-* In the IDE, Create a BlackBerry Tablet OS Target
+ * In the IDE, Create a BlackBerry Tablet OS Target
    * Connect your PlayBook via USB to your desktop and make sure that development mode is enabled
    * New > Other... > BlackBerry Tablet OS Target > Next
    * Enter your "Development Address" (probably 169.254.0.1)
