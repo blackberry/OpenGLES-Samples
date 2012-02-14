@@ -1,0 +1,11 @@
+*~
+*.o
+*.gcno
+*.bar
+Device-Coverage/
+Device-Debug/
+Device-Profile/
+Device-Release/
+Simulator-Coverage/
+Simulator-Debug/
+Simulator-Profile/
