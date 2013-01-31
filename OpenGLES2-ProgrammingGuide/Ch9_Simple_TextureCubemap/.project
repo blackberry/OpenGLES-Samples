@@ -28,7 +28,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.buildLocation</key>
-					<value>${workspace_loc:/Ch9_Simple_TextureCubemap/Simulator-Debug}</value>
+					<value>${workspace_loc:/Ch9_Simple_TextureCubemap/Device-Debug}</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.contents</key>
