@@ -22,7 +22,7 @@
 							<builder buildPath="${workspace_loc:/Ch9_Simple_TextureCubemap/Device-Debug}" id="com.qnx.nto.1388939474" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="com.qnx.nto"/>
 							<tool id="com.qnx.qcc.tool.compiler.1238316824" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.2085009433" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.73508065" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.73508065" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.589735753" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
@@ -31,7 +31,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.compiler.warningLevel.2100070548" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.compiler.warningLevel.2100070548" name="Warning Level (-w)" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.1839864308" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.1945191064" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
@@ -39,7 +39,7 @@
 								<option id="com.qnx.qcc.option.assembler.includePath.1696563339" name="Include Directories (-I)" superClass="com.qnx.qcc.option.assembler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.assembler.warningLevel.1828144569" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.assembler.warningLevel.1828144569" name="Warning Level (-w)" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.assembler.2076465001" superClass="com.qnx.qcc.inputType.assembler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.1079640043" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
@@ -53,6 +53,7 @@
 									<listOptionValue builtIn="false" value="png"/>
 									<listOptionValue builtIn="false" value="GLESv2"/>
 									<listOptionValue builtIn="false" value="Common"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<option id="com.qnx.qcc.option.linker.security.2038149155" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraryPaths.2076718658" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
@@ -60,7 +61,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/Device-Debug}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.linker.warningLevel.44430780" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.linker.warningLevel.44430780" name="Warning Level (-w)" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.1939394345" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -68,7 +69,7 @@
 								</inputType>
 							</tool>
 							<tool id="com.qnx.qcc.tool.archiver.1491272597" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver">
-								<option id="com.qnx.qcc.option.warningLevel.1041322095" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.warningLevel.1041322095" name="Warning Level (-w)" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -98,7 +99,7 @@
 							<builder buildPath="${workspace_loc:/Ch9_Simple_TextureCubemap/Device-Release}" id="com.qnx.nto.79319898" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="com.qnx.nto"/>
 							<tool id="com.qnx.qcc.tool.compiler.115059844" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compiler.optlevel.976692935" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.2" valueType="enumerated"/>
-								<option id="com.qnx.qcc.option.compiler.security.515269824" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.515269824" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1051949631" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
@@ -108,14 +109,14 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.compiler.warningLevel.381863554" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.compiler.warningLevel.381863554" name="Warning Level (-w)" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.1804935174" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.734272764" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
 								<option id="com.qnx.qcc.option.assembler.includePath.2042878590" name="Include Directories (-I)" superClass="com.qnx.qcc.option.assembler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.assembler.warningLevel.974690307" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.assembler.warningLevel.974690307" name="Warning Level (-w)" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.assembler.627262710" superClass="com.qnx.qcc.inputType.assembler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.1229492747" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
@@ -128,6 +129,7 @@
 									<listOptionValue builtIn="false" value="png"/>
 									<listOptionValue builtIn="false" value="GLESv2"/>
 									<listOptionValue builtIn="false" value="Common"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<option id="com.qnx.qcc.option.linker.security.849971261" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.pie.1605700222" name="Position Independent Executable (-pie)" superClass="com.qnx.qcc.option.linker.pie" value="true" valueType="boolean"/>
@@ -136,7 +138,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/Device-Release}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.linker.warningLevel.1815993533" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.linker.warningLevel.1815993533" name="Warning Level (-w)" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.1258003297" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -144,7 +146,7 @@
 								</inputType>
 							</tool>
 							<tool id="com.qnx.qcc.tool.archiver.1319296690" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver">
-								<option id="com.qnx.qcc.option.warningLevel.622327325" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.warningLevel.622327325" name="Warning Level (-w)" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -175,7 +177,7 @@
 							<tool id="com.qnx.qcc.tool.compiler.1002910453" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.1511129530" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.profile2.1401434125" name="Build for Profiling (Function Instrumentation) (-finstrument-functions)" superClass="com.qnx.qcc.option.compiler.profile2" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.1968417180" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.1968417180" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1557773522" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
@@ -184,7 +186,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.compiler.warningLevel.536426131" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.compiler.warningLevel.536426131" name="Warning Level (-w)" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.84317168" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.738552048" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
@@ -192,7 +194,7 @@
 								<option id="com.qnx.qcc.option.assembler.includePath.1094254062" name="Include Directories (-I)" superClass="com.qnx.qcc.option.assembler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.assembler.warningLevel.746149809" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.assembler.warningLevel.746149809" name="Warning Level (-w)" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.assembler.1314917880" superClass="com.qnx.qcc.inputType.assembler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.102142349" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
@@ -207,6 +209,7 @@
 									<listOptionValue builtIn="false" value="png"/>
 									<listOptionValue builtIn="false" value="GLESv2"/>
 									<listOptionValue builtIn="false" value="Common"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<option id="com.qnx.qcc.option.linker.security.1601152277" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraryPaths.525231728" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
@@ -214,7 +217,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/Device-Profile}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.linker.warningLevel.333494946" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.linker.warningLevel.333494946" name="Warning Level (-w)" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.1741145276" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -222,7 +225,7 @@
 								</inputType>
 							</tool>
 							<tool id="com.qnx.qcc.tool.archiver.1044899473" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver">
-								<option id="com.qnx.qcc.option.warningLevel.1868920566" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.warningLevel.1868920566" name="Warning Level (-w)" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -253,7 +256,7 @@
 							<tool id="com.qnx.qcc.tool.compiler.341041525" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.681086830" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.coverage.1569040793" name="Build for Code Coverage (-Wc,-ftest-coverage -Wc,-fprofile-arcs)" superClass="com.qnx.qcc.option.compiler.coverage" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.1305669078" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.1305669078" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1684028048" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
@@ -262,7 +265,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.compiler.warningLevel.1336619509" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.compiler.warningLevel.1336619509" name="Warning Level (-w)" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.1399234772" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.1689959119" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
@@ -270,12 +273,12 @@
 								<option id="com.qnx.qcc.option.assembler.includePath.136886572" name="Include Directories (-I)" superClass="com.qnx.qcc.option.assembler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.assembler.warningLevel.1682136643" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.assembler.warningLevel.1682136643" name="Warning Level (-w)" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.assembler.1482577695" superClass="com.qnx.qcc.inputType.assembler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.2084720716" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
 								<option id="com.qnx.qcc.option.linker.debug.319695703" name="Debug (-g)" superClass="com.qnx.qcc.option.linker.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.linker.coverage.61495628" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs -p)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.linker.coverage.61495628" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraries.2109417257" name="Libraries (-l)" superClass="com.qnx.qcc.option.linker.libraries" valueType="libs">
 									<listOptionValue builtIn="false" value="bps"/>
 									<listOptionValue builtIn="false" value="pps"/>
@@ -285,6 +288,7 @@
 									<listOptionValue builtIn="false" value="png"/>
 									<listOptionValue builtIn="false" value="GLESv2"/>
 									<listOptionValue builtIn="false" value="Common"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<option id="com.qnx.qcc.option.linker.security.1929908547" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraryPaths.1374130704" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
@@ -292,7 +296,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/Device-Coverage}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.linker.warningLevel.1537758690" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.linker.warningLevel.1537758690" name="Warning Level (-w)" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.1877204878" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -300,7 +304,7 @@
 								</inputType>
 							</tool>
 							<tool id="com.qnx.qcc.tool.archiver.777533378" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver">
-								<option id="com.qnx.qcc.option.warningLevel.1200084631" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.warningLevel.1200084631" name="Warning Level (-w)" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -329,7 +333,7 @@
 							<builder buildPath="${workspace_loc:/Ch9_Simple_TextureCubemap/Simulator-Debug}" id="com.qnx.nto.922954974" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="com.qnx.nto"/>
 							<tool id="com.qnx.qcc.tool.compiler.1614695042" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.856265882" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.2050753336" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.2050753336" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1254789548" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
@@ -338,7 +342,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.compiler.warningLevel.160538656" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.compiler.warningLevel.160538656" name="Warning Level (-w)" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.2102327240" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.462043810" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
@@ -346,7 +350,7 @@
 								<option id="com.qnx.qcc.option.assembler.includePath.2023563402" name="Include Directories (-I)" superClass="com.qnx.qcc.option.assembler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.assembler.warningLevel.1513083000" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.assembler.warningLevel.1513083000" name="Warning Level (-w)" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.assembler.1210895409" superClass="com.qnx.qcc.inputType.assembler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.552496206" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
@@ -360,6 +364,7 @@
 									<listOptionValue builtIn="false" value="png"/>
 									<listOptionValue builtIn="false" value="GLESv2"/>
 									<listOptionValue builtIn="false" value="Common"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<option id="com.qnx.qcc.option.linker.security.1646954768" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraryPaths.183542629" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
@@ -367,7 +372,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/Simulator-Debug}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.linker.warningLevel.334603333" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.linker.warningLevel.334603333" name="Warning Level (-w)" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.914141255" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -375,7 +380,7 @@
 								</inputType>
 							</tool>
 							<tool id="com.qnx.qcc.tool.archiver.181162453" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver">
-								<option id="com.qnx.qcc.option.warningLevel.1049675718" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.warningLevel.1049675718" name="Warning Level (-w)" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -405,7 +410,7 @@
 							<tool id="com.qnx.qcc.tool.compiler.323320132" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.1614444336" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.profile2.1314262627" name="Build for Profiling (Function Instrumentation) (-finstrument-functions)" superClass="com.qnx.qcc.option.compiler.profile2" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.1654924301" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.1654924301" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1806328181" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
@@ -414,7 +419,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.compiler.warningLevel.234109155" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.compiler.warningLevel.234109155" name="Warning Level (-w)" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.725706487" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.881322822" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
@@ -422,7 +427,7 @@
 								<option id="com.qnx.qcc.option.assembler.includePath.664479999" name="Include Directories (-I)" superClass="com.qnx.qcc.option.assembler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.assembler.warningLevel.992045315" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.assembler.warningLevel.992045315" name="Warning Level (-w)" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.assembler.331663222" superClass="com.qnx.qcc.inputType.assembler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.922802882" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
@@ -437,6 +442,7 @@
 									<listOptionValue builtIn="false" value="png"/>
 									<listOptionValue builtIn="false" value="GLESv2"/>
 									<listOptionValue builtIn="false" value="Common"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<option id="com.qnx.qcc.option.linker.security.1593676395" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraryPaths.1156700068" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
@@ -444,7 +450,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/Simulator-Profile}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.linker.warningLevel.1092631775" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.linker.warningLevel.1092631775" name="Warning Level (-w)" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.1004370420" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -452,7 +458,7 @@
 								</inputType>
 							</tool>
 							<tool id="com.qnx.qcc.tool.archiver.1760590949" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver">
-								<option id="com.qnx.qcc.option.warningLevel.1194361125" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.warningLevel.1194361125" name="Warning Level (-w)" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -482,7 +488,7 @@
 							<tool id="com.qnx.qcc.tool.compiler.2088678246" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.1110598304" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.coverage.149020002" name="Build for Code Coverage (-Wc,-ftest-coverage -Wc,-fprofile-arcs)" superClass="com.qnx.qcc.option.compiler.coverage" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.1623657479" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.1623657479" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1319493502" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 								</option>
@@ -491,7 +497,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.compiler.warningLevel.991753601" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.compiler.warningLevel.991753601" name="Warning Level (-w)" superClass="com.qnx.qcc.option.compiler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.159462195" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.189447096" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
@@ -499,12 +505,12 @@
 								<option id="com.qnx.qcc.option.assembler.includePath.379693478" name="Include Directories (-I)" superClass="com.qnx.qcc.option.assembler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/src}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.assembler.warningLevel.1064225713" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.assembler.warningLevel.1064225713" name="Warning Level (-w)" superClass="com.qnx.qcc.option.assembler.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.assembler.1910478606" superClass="com.qnx.qcc.inputType.assembler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.850666334" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
 								<option id="com.qnx.qcc.option.linker.debug.1729671783" name="Debug (-g)" superClass="com.qnx.qcc.option.linker.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.linker.coverage.86316150" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs -p)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.linker.coverage.86316150" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraries.817718044" name="Libraries (-l)" superClass="com.qnx.qcc.option.linker.libraries" valueType="libs">
 									<listOptionValue builtIn="false" value="bps"/>
 									<listOptionValue builtIn="false" value="pps"/>
@@ -514,6 +520,7 @@
 									<listOptionValue builtIn="false" value="png"/>
 									<listOptionValue builtIn="false" value="GLESv2"/>
 									<listOptionValue builtIn="false" value="Common"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
 								<option id="com.qnx.qcc.option.linker.security.653555427" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.libraryPaths.550982626" name="Library Paths (-L)" superClass="com.qnx.qcc.option.linker.libraryPaths" valueType="libPaths">
@@ -521,7 +528,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Common/Simulator-Coverage}&quot;"/>
 								</option>
-								<option id="com.qnx.qcc.option.linker.warningLevel.1127156377" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.linker.warningLevel.1127156377" name="Warning Level (-w)" superClass="com.qnx.qcc.option.linker.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.1986318963" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -529,7 +536,7 @@
 								</inputType>
 							</tool>
 							<tool id="com.qnx.qcc.tool.archiver.407918762" name="QCC Archiver" superClass="com.qnx.qcc.tool.archiver">
-								<option id="com.qnx.qcc.option.warningLevel.2084110981" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
+								<option id="com.qnx.qcc.option.warningLevel.2084110981" name="Warning Level (-w)" superClass="com.qnx.qcc.option.warningLevel" value="com.qnx.qcc.option.warningLevel.9" valueType="enumerated"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
