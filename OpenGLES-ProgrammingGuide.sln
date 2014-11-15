@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch2_Hello_Triangle", "OpenGLES2-ProgrammingGuide\Ch2_Hello_Triangle\Ch2_Hello_Triangle.vcxproj", "{A8A92870-CCEF-40D6-9A08-3D0DDE0348FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch8_Simple_VertexShader", "OpenGLES2-ProgrammingGuide\Ch8_Simple_VertexShader\Ch8_Simple_VertexShader.vcxproj", "{970397A1-CEF4-40B7-B54D-C48CC9BC1F23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch9_MipMap2D", "OpenGLES2-ProgrammingGuide\Ch9_MipMap2D\Ch9_MipMap2D.vcxproj", "{019E98EB-D754-4DDB-9AC9-BE4A5CC6631F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch9_Simple_Texture2D", "OpenGLES2-ProgrammingGuide\Ch9_Simple_Texture2D\Ch9_Simple_Texture2D.vcxproj", "{08CAB057-15B9-4EF5-8AD5-7011A35F3DA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch9_Simple_TextureCubemap", "OpenGLES2-ProgrammingGuide\Ch9_Simple_TextureCubemap\Ch9_Simple_TextureCubemap.vcxproj", "{BF08FF7F-4329-4A78-B1A8-3CA72362A80B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch9_TextureWrap", "OpenGLES2-ProgrammingGuide\Ch9_TextureWrap\Ch9_TextureWrap.vcxproj", "{BD6B182A-7840-4DDE-BED5-B5536D36DEBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch10_MultiTexture", "OpenGLES2-ProgrammingGuide\Ch10_MultiTexture\Ch10_MultiTexture.vcxproj", "{E01E8087-AF58-4D2E-B9A9-1E2BD1A3F10F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch11_Stencil_Test", "OpenGLES2-ProgrammingGuide\Ch11_Stencil_Test\Ch11_Stencil_Test.vcxproj", "{00C22F82-DBC0-4FD3-9E07-53E6EA0BCC39}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch13_ParticleSystem", "OpenGLES2-ProgrammingGuide\Ch13_ParticleSystem\Ch13_ParticleSystem.vcxproj", "{5064B846-D211-409A-A21D-CB90EABC2CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|BlackBerry = Debug|BlackBerry
+		Release|BlackBerry = Release|BlackBerry
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8A92870-CCEF-40D6-9A08-3D0DDE0348FF}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{A8A92870-CCEF-40D6-9A08-3D0DDE0348FF}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{A8A92870-CCEF-40D6-9A08-3D0DDE0348FF}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{A8A92870-CCEF-40D6-9A08-3D0DDE0348FF}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{A8A92870-CCEF-40D6-9A08-3D0DDE0348FF}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{A8A92870-CCEF-40D6-9A08-3D0DDE0348FF}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{970397A1-CEF4-40B7-B54D-C48CC9BC1F23}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{970397A1-CEF4-40B7-B54D-C48CC9BC1F23}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{970397A1-CEF4-40B7-B54D-C48CC9BC1F23}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{970397A1-CEF4-40B7-B54D-C48CC9BC1F23}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{970397A1-CEF4-40B7-B54D-C48CC9BC1F23}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{970397A1-CEF4-40B7-B54D-C48CC9BC1F23}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{019E98EB-D754-4DDB-9AC9-BE4A5CC6631F}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{019E98EB-D754-4DDB-9AC9-BE4A5CC6631F}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{019E98EB-D754-4DDB-9AC9-BE4A5CC6631F}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{019E98EB-D754-4DDB-9AC9-BE4A5CC6631F}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{019E98EB-D754-4DDB-9AC9-BE4A5CC6631F}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{019E98EB-D754-4DDB-9AC9-BE4A5CC6631F}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{08CAB057-15B9-4EF5-8AD5-7011A35F3DA3}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{08CAB057-15B9-4EF5-8AD5-7011A35F3DA3}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{08CAB057-15B9-4EF5-8AD5-7011A35F3DA3}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{08CAB057-15B9-4EF5-8AD5-7011A35F3DA3}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{08CAB057-15B9-4EF5-8AD5-7011A35F3DA3}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{08CAB057-15B9-4EF5-8AD5-7011A35F3DA3}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{BF08FF7F-4329-4A78-B1A8-3CA72362A80B}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{BF08FF7F-4329-4A78-B1A8-3CA72362A80B}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{BF08FF7F-4329-4A78-B1A8-3CA72362A80B}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{BF08FF7F-4329-4A78-B1A8-3CA72362A80B}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{BF08FF7F-4329-4A78-B1A8-3CA72362A80B}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{BF08FF7F-4329-4A78-B1A8-3CA72362A80B}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{BD6B182A-7840-4DDE-BED5-B5536D36DEBC}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{BD6B182A-7840-4DDE-BED5-B5536D36DEBC}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{BD6B182A-7840-4DDE-BED5-B5536D36DEBC}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{BD6B182A-7840-4DDE-BED5-B5536D36DEBC}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{BD6B182A-7840-4DDE-BED5-B5536D36DEBC}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{BD6B182A-7840-4DDE-BED5-B5536D36DEBC}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{E01E8087-AF58-4D2E-B9A9-1E2BD1A3F10F}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{E01E8087-AF58-4D2E-B9A9-1E2BD1A3F10F}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{E01E8087-AF58-4D2E-B9A9-1E2BD1A3F10F}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{E01E8087-AF58-4D2E-B9A9-1E2BD1A3F10F}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{E01E8087-AF58-4D2E-B9A9-1E2BD1A3F10F}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{E01E8087-AF58-4D2E-B9A9-1E2BD1A3F10F}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{00C22F82-DBC0-4FD3-9E07-53E6EA0BCC39}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{00C22F82-DBC0-4FD3-9E07-53E6EA0BCC39}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{00C22F82-DBC0-4FD3-9E07-53E6EA0BCC39}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{00C22F82-DBC0-4FD3-9E07-53E6EA0BCC39}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{00C22F82-DBC0-4FD3-9E07-53E6EA0BCC39}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{00C22F82-DBC0-4FD3-9E07-53E6EA0BCC39}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+		{5064B846-D211-409A-A21D-CB90EABC2CAD}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{5064B846-D211-409A-A21D-CB90EABC2CAD}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{5064B846-D211-409A-A21D-CB90EABC2CAD}.Debug|BlackBerry.Deploy.0 = Debug|BlackBerry
+		{5064B846-D211-409A-A21D-CB90EABC2CAD}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{5064B846-D211-409A-A21D-CB90EABC2CAD}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{5064B846-D211-409A-A21D-CB90EABC2CAD}.Release|BlackBerry.Deploy.0 = Release|BlackBerry
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
