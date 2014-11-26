@@ -2,6 +2,8 @@
 *.o
 *.gcno
 *.bar
+OpenGLES-ProgrammingGuide.sdf
+OpenGLES-ProgrammingGuide.v12.suo
 Device-Coverage/
 Device-Debug/
 Device-Profile/
